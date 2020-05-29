@@ -19,7 +19,6 @@ class GameRepository (context: Context) {
     }
 
     fun getAllGames(): LiveData<List<Game>>{
-
         return gameDao?.getAllGames() ?: MutableLiveData(emptyList())
     }
 

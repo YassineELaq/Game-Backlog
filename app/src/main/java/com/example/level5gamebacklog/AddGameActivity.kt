@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter
 import java.util.*
 
 
-const val EXTRA_GAME = "EXTRA_GAME"
+const val EXTRA_GAME = "EXTRA_AGME"
 
 class AddGameActivity : AppCompatActivity() {
 
